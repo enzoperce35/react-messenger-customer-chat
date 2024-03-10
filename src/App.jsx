@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -28,6 +29,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <MessengerCustomerChat pageId="228502743687333" appId="910534807474102"/>
     </>
   )
 }
